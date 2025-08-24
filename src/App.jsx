@@ -1,5 +1,7 @@
+import Accordian from './components/accordian';
 import Calculater from './components/Calculater';
 import Counter from './components/Counter'
+import { FormValidation } from './components/FormValidation';
 import HiddenSearchBar from './components/HiddenSearchBar';
 import Meals from './components/Meals';
 import Testimonial from './components/Testimonial';
@@ -17,7 +19,9 @@ const App = () => {
        {/* <Calculater /> */}
        {/* <ToggleBackground /> */}
        {/* <HiddenSearchBar /> */}
-       <Testimonial />
+       {/* <Testimonial /> */}
+       {/* <Accordian /> */}
+       <FormValidation />
     </div>
   )
 }
